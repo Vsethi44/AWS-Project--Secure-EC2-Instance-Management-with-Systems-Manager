@@ -1,12 +1,11 @@
 # AWS-Project--Secure-EC2-Instance-Management-with-Systems-Manager
 
-Secure EC2 Instance Management with Systems Manager
 
 ## Problem Statement
 
 **Case Study:** Operating EC2 instances securely through Systems Manager
 
-One of the leading organizations offering media hosting platforms is facing several challenges in maintaining its EC2 instances, which run in private subnets across multiple availability zones. The instances, which run Amazon Linux AMI and various software tools, require a robust solution to address the following issues:
+One of the leading organizations offering media hosting platforms faces several challenges in maintaining its EC2 instances, which run in private subnets across multiple availability zones. The cases, which run Amazon Linux AMI and various software tools, require a robust solution to address the following issues:
 
 1. **Resource Monitoring:** Need to monitor memory, CPU, and disk utilization, and take necessary measures if utilization exceeds or drops below certain levels.
 2. **Update Downtime:** Instances face downtime during updates, necessitating measures to minimize or avoid downtime.
@@ -23,7 +22,9 @@ The solution involves creating a secure and manageable architecture using AWS re
 
 ### Architecture Diagram
 
-*(Include a diagram here showing the VPC setup with subnets, NAT Gateways, EC2 instances, and their interaction with Systems Manager and CloudWatch)*
+![image](https://github.com/Vsethi44/AWS-Project--Secure-EC2-Instance-Management-with-Systems-Manager/assets/151629020/48a3739b-327e-4f3a-8f12-2768dfe7f47a)
+
+
 
 ## Tasks and Implementation
 
